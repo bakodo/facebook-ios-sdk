@@ -346,7 +346,7 @@ params   = _params;
 		[self addSubview:_webView];
 		
 		_spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:
-					UIActivityIndicatorViewStyleGray];
+					UIActivityIndicatorViewStyleGray]; // White is not visible
 		_spinner.autoresizingMask =
 		UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin
 		| UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
